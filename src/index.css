@@ -70,6 +70,10 @@ a {
   filter: brightness(1.2);
 }
 
+.icon-text {
+  padding: 1rem;
+}
+
 .icon-button svg {
   fill: var(--text-color);
   width: 20px;
@@ -88,6 +92,7 @@ a {
   border-radius: var(--border-radius);
   padding: 1rem;
   overflow: hidden; /* Hide child elements if they overlap the container*/
+  transition: height var(--speed) ease;
 }
 
 .menu-item {
