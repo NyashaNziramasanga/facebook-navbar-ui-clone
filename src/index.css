@@ -90,10 +90,6 @@ a {
   overflow: hidden; /* Hide child elements if they overlap the container*/
 }
 
-.menu {
-  width: 100%;
-}
-
 .menu-item {
   height: 50px;
   display: flex;
@@ -109,4 +105,43 @@ a {
 
 .icon-right {
   margin-left: auto;
+}
+
+.menu {
+  width: 100%;
+}
+
+/* Primary Menu */
+.menu-primary-enter {
+  position: absolute;
+  transform: translateX(-110%);
+}
+.menu-primary-enter-active {
+  transform: translateX(0%);
+  transition: all var(--speed) ease;
+}
+
+.menu-primary-exit {
+  position: absolute;
+}
+
+.menu-primary-exit-active {
+  transform: translateX(-110%);
+  transition: all var(--speed) ease;
+}
+
+/* Secondary Menu */
+.menu-secondary-enter {
+  transform: translateX(110%);
+}
+
+.menu-secondary-enter-active {
+  transform: translateX(0%);
+  transition: all var(--speed) ease;
+}
+.menu-secondary-exit {
+}
+.menu-secondary-exit-active {
+  transform: translateX(110%);
+  transition: all var(--speed) ease;
 }
