@@ -1,6 +1,9 @@
-# facebook navbar clone
-
-A clone of Facebook's dark theme 2020 navbar
+<div align="center">
+    <h1> facebook navbar clone </h1>
+    <p>
+      <i>A clone of Facebook's dark theme 2020 navbar </i> 🔲
+    </p>
+</div>
 
 ![facebook-navbar-clone](images/facebook-navbar-clone.gif)
 
