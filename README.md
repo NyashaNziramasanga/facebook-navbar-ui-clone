@@ -1,5 +1,5 @@
 <div align="center">
-    <h1> facebook navbar clone </h1>
+    <h1> Facebook Navbar UI Clone </h1>
     <p>
       <i>A clone of Facebook's dark theme 2020 navbar </i> 🔲
     </p>
