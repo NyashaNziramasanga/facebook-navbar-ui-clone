@@ -75,3 +75,38 @@ a {
   width: 20px;
   height: 20px;
 }
+
+/* Dropdown Menu */
+
+.dropdown {
+  position: absolute;
+  top: 58px; /*Overlap by 2px since navbar is 60px*/
+  width: 300px;
+  transform: translateX(-45%); /* Move left*/
+  background-color: var(--bg);
+  border: var(--border);
+  border-radius: var(--border-radius);
+  padding: 1rem;
+  overflow: hidden; /* Hide child elements if they overlap the container*/
+}
+
+.menu {
+  width: 100%;
+}
+
+.menu-item {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  border-radius: var(--border-radius);
+  transition: background var(--speed);
+  padding: 0.5rem;
+}
+
+.menu-item:hover {
+  background-color: #525357;
+}
+
+.icon-right {
+  margin-left: auto;
+}
