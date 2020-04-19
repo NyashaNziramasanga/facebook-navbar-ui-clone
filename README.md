@@ -1,22 +1,18 @@
-# facebook-navbar-clone
+# facebook navbar clone
 
-A clone of Facebook's dark theme nav bar
+A clone of Facebook's dark theme 2020 navbar
 
-## Prerequisites
-
-- [Node](https://nodejs.org/en/) installed
+![facebook-navbar-clone](images/facebook-navbar-clone.gif)
 
 ## Installation
 
 ```javascript
-// Install node modules for first time
+// Install node_modules
 $ npm install
 
 // start server on localhost
 $ npm start
 ```
-
-## Deployment
 
 ## Contributing
 
