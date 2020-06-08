@@ -5,7 +5,7 @@ import { ReactComponent as CogIcon } from '../../assets/icons/cog.svg';
 import { ReactComponent as ChevronIcon } from '../../assets/icons/chevron.svg';
 import { ReactComponent as ArrowIcon } from '../../assets/icons/arrow.svg';
 
-const DropdownMenu = () => {
+export const DropdownMenu = () => {
   const [activeMenu, setActiveMenu] = useState('main');
   const [menuHeight, setMenuHeight] = useState(null);
 
@@ -70,5 +70,3 @@ const DropdownMenu = () => {
     </div>
   );
 };
-
-export default DropdownMenu;
